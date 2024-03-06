@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[login successfull]]>
+    </line>
+    <line>
+      <![CDATA[User Created successfull]]>
+    </line>
+    <line>
+      <![CDATA[Logout successfull]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-02-12T15:52:09Z" name="Default suite" finished-at="2024-02-12T15:52:48Z" duration-ms="39225">
+    <groups>
+    </groups>
+    <test started-at="2024-02-12T15:52:09Z" name="Default test" finished-at="2024-02-12T15:52:48Z" duration-ms="39225">
+      <class name="TestNG.HomeworkActitimeCreateUser10_2">
+        <test-method signature="OpenApplication()[pri:1, instance:TestNG.HomeworkActitimeCreateUser10_2@3697186]" started-at="2024-02-12T15:52:09Z" name="OpenApplication" finished-at="2024-02-12T15:52:20Z" duration-ms="10943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApplication -->
+        <test-method signature="loginOperation()[pri:2, instance:TestNG.HomeworkActitimeCreateUser10_2@3697186]" started-at="2024-02-12T15:52:20Z" name="loginOperation" finished-at="2024-02-12T15:52:20Z" duration-ms="410" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[login successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginOperation -->
+        <test-method signature="CreateUser()[pri:0, instance:TestNG.HomeworkActitimeCreateUser10_2@3697186]" started-at="2024-02-12T15:52:20Z" name="CreateUser" finished-at="2024-02-12T15:52:48Z" depends-on-methods="TestNG.HomeworkActitimeCreateUser10_2.loginOperation" duration-ms="27594" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User Created successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CreateUser -->
+        <test-method signature="logoutOperation()[pri:3, instance:TestNG.HomeworkActitimeCreateUser10_2@3697186]" started-at="2024-02-12T15:52:48Z" name="logoutOperation" finished-at="2024-02-12T15:52:48Z" duration-ms="216" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutOperation -->
+      </class> <!-- TestNG.HomeworkActitimeCreateUser10_2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
